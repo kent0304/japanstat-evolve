@@ -1,0 +1,6 @@
+flowchart LR
+    Q[Question] --> Router
+    Router --> Analyst
+    Analyst --> Verifier
+    Verifier -->|OK| A[Answer]
+    Verifier -->|NG| Analyst

@@ -1,0 +1,14 @@
+[project]
+name = "japanstat-evolve"
+version = "0.1.0"
+description = "Evolutionary optimization of LLM agents for Japanese government statistics table Q&A using ShinkaEvolve"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.10"
+dependencies = [
+    "shinka-evolve",
+    "pandas",
+    "google-genai",
+    "openai",
+    "pyyaml",
+]

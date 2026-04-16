@@ -1,0 +1,177 @@
+{
+  "combined_score": 35.0,
+  "runtime": 781.8830740451813,
+  "public": {
+    "mean_accuracy": 0.35,
+    "questions_correct": 8,
+    "questions_total": 20,
+    "pass_rate": 0.4,
+    "num_runs_per_question": 2,
+    "total_llm_cost_usd": 0.275574
+  },
+  "private": {
+    "per_question": [
+      {
+        "id": "Q1",
+        "avg_score": 1.0,
+        "run_scores": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "Q2",
+        "avg_score": 0.0,
+        "run_scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "Q3",
+        "avg_score": 0.0,
+        "run_scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "Q4",
+        "avg_score": 0.0,
+        "run_scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "Q5",
+        "avg_score": 1.0,
+        "run_scores": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "Q6",
+        "avg_score": 0.0,
+        "run_scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "Q7",
+        "avg_score": 1.0,
+        "run_scores": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "Q8",
+        "avg_score": 1.0,
+        "run_scores": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "Q9",
+        "avg_score": 0.5,
+        "run_scores": [
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "id": "Q10",
+        "avg_score": 1.0,
+        "run_scores": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "Q11",
+        "avg_score": 0.0,
+        "run_scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "Q12",
+        "avg_score": 0.5,
+        "run_scores": [
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "id": "Q13",
+        "avg_score": 0.0,
+        "run_scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "Q14",
+        "avg_score": 0.0,
+        "run_scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "Q15",
+        "avg_score": 1.0,
+        "run_scores": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "Q16",
+        "avg_score": 0.0,
+        "run_scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "Q17",
+        "avg_score": 0.0,
+        "run_scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "Q18",
+        "avg_score": 0.0,
+        "run_scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "Q19",
+        "avg_score": 0.0,
+        "run_scores": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "Q20",
+        "avg_score": 0.0,
+        "run_scores": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "text_feedback": "8/20 questions answered correctly (avg over 2 runs). Mean accuracy: 35.0%."
+}

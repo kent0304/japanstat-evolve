@@ -1,0 +1,330 @@
+{
+  "Q1": {
+    "type": "set",
+    "description": "財政力指数低下かつ民生費割合上昇の8都道府県",
+    "entities": [
+      "岩手県",
+      "宮城県",
+      "秋田県",
+      "神奈川県",
+      "愛知県",
+      "鳥取県",
+      "香川県",
+      "高知県"
+    ]
+  },
+  "Q2": {
+    "type": "set",
+    "description": "有効求人倍率と転職者比率が両方全国平均超の3都道府県",
+    "entities": [
+      "宮城県",
+      "東京都",
+      "熊本県"
+    ]
+  },
+  "Q3": {
+    "type": "numeric_and_entity",
+    "description": "障害者就職割合（F3502/F3105）が最大の都道府県",
+    "numeric_answers": [
+      {
+        "value": 25.3,
+        "label": "障害者就職割合(%)",
+        "tolerance_abs": 0.5
+      }
+    ],
+    "entities": [
+      "愛知県"
+    ],
+    "entity_label": "割合が最も高い都道府県"
+  },
+  "Q4": {
+    "type": "ranked",
+    "description": "正規-PT月換算給与差額TOP5（男性）",
+    "entities": [
+      "栃木県",
+      "奈良県",
+      "宮城県",
+      "香川県",
+      "愛媛県"
+    ],
+    "values": [
+      119.4,
+      109.5,
+      109.2,
+      107.0,
+      104.4
+    ],
+    "value_label": "差額（千円）",
+    "value_tolerance_abs": 2.0
+  },
+  "Q5": {
+    "type": "ranked_dual",
+    "description": "男女所定内給与比の最大TOP3と最小BOTTOM3",
+    "top_entities": [
+      "香川県",
+      "三重県",
+      "栃木県"
+    ],
+    "bottom_entities": [
+      "青森県",
+      "沖縄県",
+      "高知県"
+    ],
+    "top_label": "男女格差最大",
+    "bottom_label": "男女格差最小"
+  },
+  "Q6": {
+    "type": "set",
+    "description": "転職者比率>全国平均かつ転職者数>都道府県平均の6都道府県",
+    "entities": [
+      "埼玉県",
+      "千葉県",
+      "東京都",
+      "神奈川県",
+      "大阪府",
+      "福岡県"
+    ],
+    "notes": "全国レコードの転職者数は合計値(3,027千人)。都道府県平均(≈64.4千人)で解釈"
+  },
+  "Q7": {
+    "type": "set",
+    "description": "最低賃金月換算が女性所定内給与を超える都道府県（該当なし）",
+    "entities": [],
+    "notes": "全都道府県で最低賃金月換算は女性所定内給与を大幅に下回る"
+  },
+  "Q8": {
+    "type": "ranked_dual",
+    "description": "超過給与相当額TOP5とBOTTOM5",
+    "top_entities": [
+      "三重県",
+      "愛知県",
+      "滋賀県",
+      "神奈川県",
+      "埼玉県"
+    ],
+    "bottom_entities": [
+      "沖縄県",
+      "青森県",
+      "秋田県",
+      "鳥取県",
+      "宮崎県"
+    ],
+    "top_label": "超過給与最大",
+    "bottom_label": "超過給与最小",
+    "notes": "BOTTOM同率あり: 沖縄・青森24.4千円、鳥取・宮崎24.7千円"
+  },
+  "Q9": {
+    "type": "numeric_and_entity",
+    "description": "財政力指数<0.5の都道府県数と経常収支比率最高の都道府県",
+    "numeric_answers": [
+      {
+        "value": 26,
+        "label": "財政力指数0.5未満の都道府県数",
+        "tolerance_abs": 0
+      }
+    ],
+    "entities": [
+      "北海道"
+    ],
+    "entity_label": "経常収支比率が最も高い都道府県"
+  },
+  "Q10": {
+    "type": "ranked",
+    "description": "一人当たり歳出額TOP3",
+    "entities": [
+      "島根県",
+      "徳島県",
+      "佐賀県"
+    ],
+    "values": [
+      854.5,
+      765.2,
+      744.7
+    ],
+    "value_label": "一人当たり歳出（千円/人）",
+    "value_tolerance_abs": 5.0
+  },
+  "Q11": {
+    "type": "set",
+    "description": "民生費・老人福祉費・児童福祉費割合がすべて全国平均超の9都道府県",
+    "entities": [
+      "埼玉県",
+      "千葉県",
+      "神奈川県",
+      "愛知県",
+      "三重県",
+      "大阪府",
+      "福岡県",
+      "熊本県",
+      "鹿児島県"
+    ]
+  },
+  "Q12": {
+    "type": "numeric_and_entity",
+    "description": "地方債現在高の増減数と最大増加/減少の都道府県",
+    "numeric_answers": [
+      {
+        "value": 17,
+        "label": "増加した都道府県数",
+        "tolerance_abs": 0
+      },
+      {
+        "value": 30,
+        "label": "減少した都道府県数",
+        "tolerance_abs": 0
+      }
+    ],
+    "entities": [
+      "福岡県",
+      "東京都"
+    ],
+    "entity_label": "最大増加/最大減少"
+  },
+  "Q13": {
+    "type": "ranked",
+    "description": "65歳以上割合−15歳未満割合の差TOP5と老年化指数",
+    "entities": [
+      "秋田県",
+      "高知県",
+      "青森県",
+      "徳島県",
+      "山口県"
+    ],
+    "values": [
+      29.3,
+      25.5,
+      24.6,
+      24.3,
+      24.0
+    ],
+    "value_label": "差（ポイント）",
+    "value_tolerance_abs": 0.5
+  },
+  "Q14": {
+    "type": "dual_set",
+    "description": "転入超過率（日本人移動者）の符号転換",
+    "positive_to_negative_entities": [
+      "愛知県"
+    ],
+    "negative_to_positive_entities": [
+      "宮城県",
+      "茨城県",
+      "滋賀県"
+    ],
+    "positive_to_negative_label": "正→負（転入超過→転出超過）",
+    "negative_to_positive_label": "負→正（転出超過→転入超過）"
+  },
+  "Q15": {
+    "type": "ranked",
+    "description": "民生費割合上昇幅TOP5",
+    "entities": [
+      "岩手県",
+      "宮城県",
+      "神奈川県",
+      "秋田県",
+      "鳥取県"
+    ],
+    "values": [
+      2.19,
+      1.61,
+      1.25,
+      0.66,
+      0.64
+    ],
+    "value_label": "上昇幅（ポイント）",
+    "value_tolerance_abs": 0.1
+  },
+  "Q16": {
+    "type": "ranked_dual",
+    "description": "労働市場改善スコアTOP5とBOTTOM5",
+    "top_entities": [
+      "佐賀県",
+      "鹿児島県",
+      "秋田県",
+      "島根県",
+      "山口県"
+    ],
+    "bottom_entities": [
+      "東京都",
+      "愛知県",
+      "大阪府",
+      "福岡県",
+      "京都府"
+    ],
+    "top_label": "スコア最大（最も改善）",
+    "bottom_label": "スコア最小（最も悪化）"
+  },
+  "Q17": {
+    "type": "set",
+    "description": "総人口減少かつ月間有効求職者数（一般）増加の10都道府県",
+    "entities": [
+      "栃木県",
+      "群馬県",
+      "愛知県",
+      "京都府",
+      "大阪府",
+      "兵庫県",
+      "広島県",
+      "徳島県",
+      "熊本県",
+      "福井県"
+    ]
+  },
+  "Q18": {
+    "type": "set",
+    "description": "教育費割合低下かつ老人福祉費割合上昇の11都道府県",
+    "entities": [
+      "秋田県",
+      "埼玉県",
+      "神奈川県",
+      "静岡県",
+      "奈良県",
+      "和歌山県",
+      "鳥取県",
+      "徳島県",
+      "香川県",
+      "高知県",
+      "熊本県"
+    ]
+  },
+  "Q19": {
+    "type": "ranked",
+    "description": "高齢就業困難スコアTOP5（2017年度）",
+    "entities": [
+      "北海道",
+      "青森県",
+      "埼玉県",
+      "神奈川県",
+      "愛知県"
+    ],
+    "values": [
+      4.02,
+      2.61,
+      2.59,
+      2.53,
+      2.35
+    ],
+    "value_label": "高齢就業困難スコア",
+    "value_tolerance_abs": 0.05
+  },
+  "Q20": {
+    "type": "ranked_dual",
+    "description": "総合改善スコアTOP5とBOTTOM5",
+    "top_entities": [
+      "大阪府",
+      "長野県",
+      "島根県",
+      "千葉県",
+      "岡山県"
+    ],
+    "bottom_entities": [
+      "青森県",
+      "徳島県",
+      "秋田県",
+      "福島県",
+      "鹿児島県"
+    ],
+    "top_label": "スコア最大（最も改善）",
+    "bottom_label": "スコア最小（最も悪化）"
+  }
+}
